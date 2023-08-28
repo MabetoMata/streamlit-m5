@@ -1,0 +1,7 @@
+import pandas as pd
+import streamlit as st
+import matplotlib.pyplot as ptl
+
+df = pd.read_csv(titanic.csv)
+figura = sns.barplot(x="class", y="survived", data=titanic_data)
+st.pyplot(figura)

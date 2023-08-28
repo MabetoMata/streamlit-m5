@@ -18,4 +18,4 @@ if sidebar.checkbox('Show dataframe'):
        np.random.randint(1,10, size=(20, 3)),
        columns=['col 1', 'col 2', 'col 3'])
 
-    st.dataframe(chart_data)
+    sidebar.dataframe(chart_data)
